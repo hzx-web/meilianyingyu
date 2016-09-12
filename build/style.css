@@ -1,0 +1,709 @@
+/*公共样式*/
+.subtitle a{
+    color: #337ab7;
+}
+.subtitle a:hover{
+    color: #666;
+}
+/*多样课堂*/
+.classroom{
+    padding: 75px 0 100px 0;
+    line-height: 30px;
+}
+.classroom .row{
+    margin-top: 50px;
+}
+.classroom .classroom-item{
+    padding: 15px;
+    margin-bottom: 30px;
+    border: solid 1px #eee;
+}
+.classroom .classroom-item .img-responsive{
+    display: inline-block;
+    max-width: 200px;
+}
+.classroom .classroom-item p{
+    min-height: 90px;
+    color: #666;
+    overflow: hidden;
+}
+
+/*主题*/
+.theme{
+    padding-bottom: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+.theme .theme-item {
+    margin-bottom: 30px;
+    background-color: #f3f3f3;
+}
+.theme .theme-video{
+    position: relative;
+    display: block;
+}
+.theme .theme-item p{
+    padding: 0 15px;
+}
+.theme .theme-item .look-theme{
+    display: block;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1bbc9b;
+    border-radius: 0;
+}
+.theme .theme-item .look-theme:hover{
+    color: #fff;
+}
+
+/*课程级别*/
+.course-level{
+    padding-bottom: 100px;
+}
+.course-level .course-level-item{
+    border: solid 1px #eee;
+}
+.course-level .course-level-item>div:first-child {
+    border-bottom: solid 1px #eee;
+}
+.course-level .course-level-item .text-center>div{
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+}
+.course-level .course-level-item>p{
+    height: 150px;
+    padding: 15px 10px;
+    line-height: 30px;
+    overflow: hidden;
+}
+/*自助购买*/
+.self-help-buy{
+    padding-bottom: 100px;
+}
+.self-help-buy .product-item {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    border: solid 1px #ddd;
+}
+.self-help-buy .product-item .media{
+    margin-top: 0;
+}
+.self-help-buy .product-item .price {
+    color: #d95072;
+}
+.self-help-buy .product-item .buttons {
+    margin-top: 5px;
+}
+.self-help-buy  .product-item .buttons div.row {
+    margin: 0 -5px;
+}
+.self-help-buy  .product-item .buttons div.row>div {
+    padding: 5px;
+    margin: 0;
+}
+/*学习英语时段*/
+.learning-time {
+    padding-top: 75px;
+}
+
+.learning-time .time-trend {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #00a080;
+    position: relative;
+    z-index: 99;
+}
+
+.learning-time .time-trend h4 {
+    color: #f3f3f3;
+    margin-bottom: -20px;
+}
+
+.learning-time .time-trend .img-responsive {
+    display: inline-block;
+}
+
+/*学习人群*/
+.learning-crowd {
+    padding-top: 225px;
+    padding-bottom: 50px;
+    background-image: url("../img/learning_crowd_bg.jpg");
+    margin-top: -150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learning-crowd .title {
+    max-width: 655px;
+    margin: 0 auto 30px auto;
+    color: #fff;
+    line-height: 30px;
+}
+
+.learning-crowd .title span {
+    color: #ffd300;
+}
+
+.learning-crowd .crowd-item {
+    margin-bottom: 35px;
+    line-height: 25px;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.learning-crowd .crowd-item h3 {
+    margin-bottom: 15px;
+    color: #00a080;
+}
+
+/*师资*/
+.teachers {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.teachers .teachers-item{
+    min-height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    background-image: url("../img/teachers01.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #f6f792;
+}
+.teachers .teacher02{
+      background-image: url("../img/teachers02.png");
+}
+.teachers .teacher03{
+    background-image: url("../img/teachers03.png");
+}
+.teachers .teacher04{
+    background-image: url("../img/teachers04.png");
+}
+.teachers .row .col-sm-4 .teachers-item{
+    min-height: 200px;
+}
+.teachers .teachers-more{
+    display: block;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    border-bottom: solid 5px #f6f792;
+    min-height: 200px;
+    line-height: 30px;
+    padding-top: 45px;
+    color: #fff;
+    background-color: #eb7085;
+    filter: alpha(opacity=75);
+    -moz-opacity: .75;
+    opacity: .75;
+}
+
+.teachers .teachers-more:hover{
+    opacity: 1;
+}
+.teachers .teachers-item .teacher-name{
+    position: absolute;
+    right: 25px;
+    text-align: right;
+}
+.teachers .teacher02 .teacher-name{
+    left: 25px;
+    text-align: left;
+}
+/*课程体系*/
+.course-system {
+    padding-bottom: 100px;
+}
+.course-system div.row, .course-system div.row>div {
+    padding: 0;
+    margin: 0;
+}
+.course-system a.course-item{
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.course-system .row>div:nth-child(odd) .course-item{
+    background-color: rgba(217,80,114,0.85);
+}
+.course-system .row>div:nth-child(even) .course-item{
+    background-color: rgba(217,80,114,0.65);
+}
+.course-system .row>div a.course-item:hover{
+    background-color: rgba(217,80,114,1);
+}
+.course-system img.img-responsive {
+    display: inline-block;
+}
+
+/*学伴*/
+.learning-partner {
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+
+.learning-partner .row {
+    margin-top: 45px;
+}
+
+.learning-partner .row .img-responsive {
+    width: 100%;
+    border-bottom: solid 5px #f6f792;
+}
+
+.learning-partner .row .learning-partner-item p {
+    max-width: 315px;
+    min-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*打赏*/
+.reward {
+    padding-top: 50px;
+}
+
+.reward .reward-info {
+    padding-top: 235px;
+    padding-bottom: 50px;
+    margin-top: -200px;
+    color: #fff;
+    text-align: center;
+    background-color: #00a080;
+}
+
+.reward .reward-info .reward-item {
+    height: 125px;
+    line-height: 25px;
+    overflow: hidden;
+}
+/*退费*/
+.return-premium{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image:url("../img/return_premium_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.return-premium .subtitle{
+    color: #f3f3f3;
+}
+.return-premium .subtitle:before{
+    border: 0;
+}
+.return-premium .return-premium-item{
+    padding: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.return-premium .return-premium-item .img-responsive{
+    display: inline-block;
+}
+.return-premium .return-premium-item h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00a080;
+}
+/*更多特色服务*/
+.special-service {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+.special-service .media {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.special-service .media .media-object {
+    margin: 0 20px;
+}
+
+.special-service .media .media-body .media-heading {
+    margin: 15px 0;
+}
+
+.special-service .media .media-body p {
+    max-width: 700px;
+}
+
+/*微电影*/
+.micro-film {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-image: url("../img/micro_film_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.micro-film .row {
+    margin-top: 40px;
+}
+
+.micro-film .micro-film-item {
+    margin-bottom: 30px;
+}
+
+.micro-film .micro-film-item h5 {
+    padding: 10px;
+    margin: 10px 0 0;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: rgba(51, 51, 51, .2);
+}
+
+.micro-film .micro-film-item .micro-film-video {
+    position: relative;
+}
+
+.micro-film img.img-responsive{
+    width: 100%;
+}
+
+/*企业荣誉&合作伙伴*/
+.honor-partner {
+    color: #f3f3f3;
+    line-height: 25px;
+    text-align: center;
+    padding: 75px 0 100px 0;
+    background-image: url("../img/honor_partner_bg.png");
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.honor-partner h2.title {
+    margin-bottom: 45px;
+}
+
+.honor-partner img {
+    display: inline-block;
+    margin: 5px 5px 10px 5px;
+}
+
+.partner {
+    margin-top: 105px;
+}
+/*顶级名师*/
+.famous-teacher{
+    padding-top: 75px;
+    margin-bottom: 100px;
+    color: #f3f3f3;
+    line-height: 30px;
+    background-color: #00a080;
+}
+.famous-teacher h2.title{
+    color: #fff;
+}
+.famous-teacher .subtitle span{
+    background-color: #00a080;
+    color: #f3f3f3;
+}
+.famous-teacher .subtitle:before{
+    border-top-color: #1bbc9b;
+}
+.famous-teacher .row .img-responsive{
+    display: inline-block;
+}
+.famous-teacher .row ul{
+    list-style: square;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/*口语测试*/
+.oral-test{
+    padding-bottom: 100px;
+}
+.oral-test div.row, #home_examiner div.row>div {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #00a080;
+}
+.oral-test div.row>div:first-child{
+    background-color: #fff;
+}
+.oral-test div.row>div:last-child {
+    padding: 50px 30px;
+    color: #f3f3f3;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #00a080;
+}
+.oral-test a.btn{
+    margin-top: 40px;
+    width: 250px;
+    border-radius: 0;
+    color: #009f7f;
+}
+
+/*课程量身定制*/
+.customized{
+    padding-bottom: 100px;
+}
+.customized p{
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.customized img.img-responsive{
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/*一站式解决方案*/
+.one-stop{
+    padding-bottom: 100px;
+}
+.one-stop img.img-responsive{
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+.one-stop div.row, .one-stop div.row>div {
+    padding: 0;
+    margin: 0;
+}
+
+/*完整课程体系*/
+.full-course{
+    padding: 75px 0 100px 0;
+    background-color: #00a080;
+    margin-bottom: 100px;
+}
+.full-course h2.title{
+    color: #FFF;
+}
+.full-course .subtitle span{
+    background-color: #00a080;
+    color: #f3f3f3;
+}
+.full-course .subtitle:before{
+    border-top-color: #1bbc9b;
+}
+.full-course .img-responsive{
+    display: inline-block;
+    margin: 20px 0;
+}
+.full-course a.btn{
+    color: #009f7f;
+    width: 150px;
+}
+
+/*学习成效*/
+.learning-effect{
+    padding-bottom: 100px;
+}
+.learning-effect .effect-info {
+    margin: 50px 0 30px;
+}
+.learning-effect .effect-info h5{
+    line-height: 25px;
+}
+.learning-effect .effect-info h5:nth-child(2){
+    margin-bottom: 40px;
+}
+.learning-effect img.img-responsive{
+    display: inline-block;;
+}
+
+/*免费资源*/
+.free-resource{
+    padding: 75px 0 100px 0;
+    margin-bottom: 100px;
+    color: #f3f3f3;
+    background-image:url("../img/free_resource_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.free-resource .subtitle:before{
+    border: 0;
+}
+.free-resource .subtitle span{
+    color: #f3f3f3;
+    background-color: transparent;
+}
+.free-resource div.row, .free-resource div.row>div {
+    padding: 0;
+    margin: 0;
+}
+.free-resource div.row{
+    margin-top: 40px;
+}
+.free-resource div.row .free-resource-item{
+    height: 160px;
+    margin: 10px;
+    padding: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: #00a080;
+}
+.free-resource div.row .first-item{
+    height: 330px;
+}
+.free-resource img.img-responsive{
+    display: inline-block;
+}
+.free-resource div.row .first-item img.img-responsive{
+    display: inline-block;
+    margin: 15px 0;
+}
+
+/*超高性价比*/
+.cost-performance{
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+.cost-performance div.row{
+    margin-top: 40px;
+}
+.cost-performance .img-responsive{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.cost-performance .row h4,.cost-performance .row h2{
+    color: #009f7f;
+}
+.cost-performance .row .vs{
+    padding:125px 0 75px;
+}
+.cost-performance .row .list-inline{
+    margin-top: 30px;
+}
+.cost-performance .row .list-inline p{
+    margin: 0;
+}
+/*输出名校*/
+.transport-eliteschool{
+    padding-bottom: 100px;
+    text-align: center;
+}
+.transport-eliteschool .row{
+    margin-top: 40px;
+}
+.transport-eliteschool .eliteschool-item{
+    margin-bottom: 30px;
+    padding: 15px;
+    border: solid 1px #eee;
+}
+.transport-eliteschool .eliteschool-item h5{
+    margin: 0;
+    line-height: 1.42857143;
+}
+
+
+/*在线学习新体验*/
+.learning-online{
+    padding: 75px 0 100px 0;
+    line-height: 25px;
+}
+.learning-online .row{
+    margin-top: 40px;
+}
+.learning-online .img-responsive{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.learning-online  p{
+    height: 75px;
+    max-width: 250px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+/*欧美最新课程*/
+.western-course{
+    padding-bottom: 100px;
+}
+.western-course .nav-tabs{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.western-course  .nav-tabs li{
+    padding-left: 0;
+}
+.western-course  .nav-tabs li:last-child{
+    padding-right: 0;
+}
+
+.western-course  .nav-tabs li a {
+    height: 56px;
+    margin-right: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 26px;
+    line-height: 56px;
+    text-align: center;
+    background-color:rgba(25,170,141,0.8);
+    border-radius: 5px;
+}
+.western-course .nav-tabs li.active a{
+    color: #EAF968;
+    background-color: rgb(25,170,141);
+}
+
+.western-course .tab-content{
+    padding-bottom: 15px;
+    background-color: #EAF968;
+}
+.western-course .tab-content .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.western-course .tab-pane:first-child>.row>.col-md-6 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.western-course .tab-content .row h3 {
+    margin-top: 0;
+    color: #19aa8d;
+    font-size: 34px;
+    line-height: 108px;
+}
+.western-course .tab-content p {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    color: #19aa8d;
+    line-height: 30px;
+}
+
+/*辅修课程*/
+.minor-course{
+    padding-bottom: 100px;
+}
+.minor-course .row{
+    margin-top: 40px;
+}
+.minor-course .img-responsive{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: solid 5px #f6f792;
+}
+.minor-course p {
+    line-height: 30px;
+}

@@ -1,0 +1,300 @@
+/*学习英语时段*/
+.learning-time {
+    padding-top: 75px;
+}
+
+.learning-time .time-trend {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #00a080;
+    position: relative;
+    z-index: 99;
+}
+
+.learning-time .time-trend h4 {
+    color: #f3f3f3;
+    margin-bottom: -20px;
+}
+
+.learning-time .time-trend .img-responsive {
+    display: inline-block;
+}
+
+/*学习人群*/
+.learning-crowd {
+    padding-top: 225px;
+    padding-bottom: 50px;
+    background-image: url("../img/learning_crowd_bg.jpg");
+    margin-top: -150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learning-crowd .title {
+    max-width: 655px;
+    margin: 0 auto 30px auto;
+    color: #fff;
+    line-height: 30px;
+}
+
+.learning-crowd .title span {
+    color: #ffd300;
+}
+
+.learning-crowd .crowd-item {
+    margin-bottom: 35px;
+    line-height: 25px;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.learning-crowd .crowd-item h3 {
+    margin-bottom: 15px;
+    color: #00a080;
+}
+
+/*师资*/
+.teachers {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.teachers .teachers-item{
+    min-height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    background-image: url("../img/teachers01.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #f6f792;
+}
+.teachers .teacher02{
+      background-image: url("../img/teachers02.png");
+}
+.teachers .teacher03{
+    background-image: url("../img/teachers03.png");
+}
+.teachers .teacher04{
+    background-image: url("../img/teachers04.png");
+}
+.teachers .row .col-sm-4 .teachers-item{
+    min-height: 200px;
+}
+.teachers .teachers-more{
+    display: block;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    border-bottom: solid 5px #f6f792;
+    min-height: 200px;
+    line-height: 30px;
+    padding-top: 45px;
+    color: #fff;
+    background-color: #eb7085;
+    filter: alpha(opacity=75);
+    -moz-opacity: .75;
+    opacity: .75;
+}
+
+.teachers .teachers-more:hover{
+    opacity: 1;
+}
+.teachers .teachers-item .teacher-name{
+    position: absolute;
+    right: 25px;
+    text-align: right;
+}
+.teachers .teacher02 .teacher-name{
+    left: 25px;
+    text-align: left;
+}
+/*课程体系*/
+.course-system {
+    padding-bottom: 100px;
+}
+.course-system div.row, .course-system div.row>div {
+    padding: 0;
+    margin: 0;
+}
+.course-system a.course-item{
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.course-system .row>div:nth-child(odd) .course-item{
+    background-color: rgba(217,80,114,0.85);
+}
+.course-system .row>div:nth-child(even) .course-item{
+    background-color: rgba(217,80,114,0.65);
+}
+.course-system .row>div a.course-item:hover{
+    background-color: rgba(217,80,114,1);
+}
+.course-system img.img-responsive {
+    display: inline-block;
+}
+
+/*学伴*/
+.learning-partner {
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+
+.learning-partner .row {
+    margin-top: 45px;
+}
+
+.learning-partner .row .img-responsive {
+    width: 100%;
+    border-bottom: solid 5px #f6f792;
+}
+
+.learning-partner .row .learning-partner-item p {
+    max-width: 315px;
+    min-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*打赏*/
+.reward {
+    padding-top: 50px;
+}
+
+.reward .reward-info {
+    padding-top: 235px;
+    padding-bottom: 50px;
+    margin-top: -200px;
+    color: #fff;
+    text-align: center;
+    background-color: #00a080;
+}
+
+.reward .reward-info .reward-item {
+    height: 125px;
+    line-height: 25px;
+    overflow: hidden;
+}
+/*退费*/
+.return-premium{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image:url("../img/return_premium_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.return-premium .subtitle{
+    color: #f3f3f3;
+}
+.return-premium .subtitle:before{
+    border: 0;
+}
+.return-premium .return-premium-item{
+    padding: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.return-premium .return-premium-item .img-responsive{
+    display: inline-block;
+}
+.return-premium .return-premium-item h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00a080;
+}
+/*更多特色服务*/
+.special-service {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+.special-service .media {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.special-service .media .media-object {
+    margin: 0 20px;
+}
+
+.special-service .media .media-body .media-heading {
+    margin: 15px 0;
+}
+
+.special-service .media .media-body p {
+    max-width: 700px;
+}
+
+/*微电影*/
+.micro-film {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-image: url("../img/micro_film_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.micro-film .row {
+    margin-top: 40px;
+}
+
+.micro-film .micro-film-item {
+    margin-bottom: 30px;
+}
+
+.micro-film .micro-film-item h5 {
+    padding: 10px;
+    margin: 10px 0 0;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: rgba(51, 51, 51, .2);
+}
+
+.micro-film .micro-film-item .micro-film-video {
+    position: relative;
+}
+
+.micro-film img.img-responsive{
+    width: 100%;
+}
+
+/*企业荣誉&合作伙伴*/
+.honor-partner {
+    color: #f3f3f3;
+    line-height: 25px;
+    text-align: center;
+    padding: 75px 0 100px 0;
+    background-image: url("../img/honor_partner_bg.png");
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.honor-partner h2.title {
+    margin-bottom: 45px;
+}
+
+.honor-partner img {
+    display: inline-block;
+    margin: 5px 5px 10px 5px;
+}
+
+.partner {
+    margin-top: 105px;
+}

@@ -1,0 +1,105 @@
+/*公共样式*/
+.subtitle a{
+    color: #337ab7;
+}
+.subtitle a:hover{
+    color: #666;
+}
+/*多样课堂*/
+.classroom{
+    padding: 75px 0 100px 0;
+    line-height: 30px;
+}
+.classroom .row{
+    margin-top: 50px;
+}
+.classroom .classroom-item{
+    padding: 15px;
+    margin-bottom: 30px;
+    border: solid 1px #eee;
+}
+.classroom .classroom-item .img-responsive{
+    display: inline-block;
+    max-width: 200px;
+}
+.classroom .classroom-item p{
+    min-height: 90px;
+    color: #666;
+    overflow: hidden;
+}
+
+/*主题*/
+.theme{
+    padding-bottom: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+.theme .theme-item {
+    margin-bottom: 30px;
+    background-color: #f3f3f3;
+}
+.theme .theme-video{
+    position: relative;
+    display: block;
+}
+.theme .theme-item p{
+    padding: 0 15px;
+}
+.theme .theme-item .look-theme{
+    display: block;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1bbc9b;
+    border-radius: 0;
+}
+.theme .theme-item .look-theme:hover{
+    color: #fff;
+}
+
+/*课程级别*/
+.course-level{
+    padding-bottom: 100px;
+}
+.course-level .course-level-item{
+    border: solid 1px #eee;
+}
+.course-level .course-level-item>div:first-child {
+    border-bottom: solid 1px #eee;
+}
+.course-level .course-level-item .text-center>div{
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+}
+.course-level .course-level-item>p{
+    height: 150px;
+    padding: 15px 10px;
+    line-height: 30px;
+    overflow: hidden;
+}
+/*自助购买*/
+.self-help-buy{
+    padding-bottom: 100px;
+}
+.self-help-buy .product-item {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    border: solid 1px #ddd;
+}
+.self-help-buy .product-item .media{
+    margin-top: 0;
+}
+.self-help-buy .product-item .price {
+    color: #d95072;
+}
+.self-help-buy .product-item .buttons {
+    margin-top: 5px;
+}
+.self-help-buy  .product-item .buttons div.row {
+    margin: 0 -5px;
+}
+.self-help-buy  .product-item .buttons div.row>div {
+    padding: 5px;
+    margin: 0;
+}

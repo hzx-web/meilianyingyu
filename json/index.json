@@ -1,0 +1,116 @@
+[
+  {
+    "imgUrl":[
+      {"src":"img/banner01.jpg"},
+      {"src":"img/banner02.jpg"},
+      {"src":"img/banner03.jpg"},
+      {"src":"img/banner04.jpg"},
+      {"src":"img/banner05.jpg"}
+    ]
+  },
+  {
+    "title": "真的没有时间学习英语吗?",
+    "subtitle": "",
+    "imgUrl":[
+      {"src":"img/zqz.png"},
+      {"src":"img/ymz.png"},
+      {"src":"img/znzn.png"},
+      {"src":"img/lhz.png"}
+    ]
+  },
+  {
+    "title": "2000+全球师资 100%欧美外教",
+    "subtitle": "TESOL证书 / 5年以上教龄 / 高颜值外教团",
+    "imgUrl":[
+      {"background_image":"img/teachers01.png"},
+      {"background_image":"img/teachers02.png"},
+      {"background_image":"img/teachers03.png"},
+      {"background_image":"img/teachers04.png"}
+    ]
+  },
+  {
+    "title": "6+课程体系，总有一款适合你",
+    "subtitle": "10教育行业背景，1000专业研发团队， 针对不同学习需求，打造全面完善的课程体系",
+    "imgUrl":[
+      {"src":"img/course_system.png"}
+    ]
+  },
+  {
+    "title": "有伴有爱有力量，再也不怕学习没动力",
+    "subtitle": "学习从来不是轻松事，与其孤身奋战，不如找到志同道合小伙伴一起坚持到底，免费的哦",
+    "imgUrl":[
+      {"src":"img/learning_partner01.jpg"},
+      {"src":"img/learning_partner02.jpg"},
+      {"src":"img/learning_partner03.jpg"}
+    ]
+  },
+  {
+    "title": "真金白银选老师",
+    "subtitle": "教你学的人和督促你学的人，最重要！评分与评语有时并不客观， 你懂哒。所以，我们开放打赏功能，真金白银的来检验教学与服务。",
+    "imgUrl":[
+      {"src":"img/reward.jpg"}
+    ]
+  },
+  {
+    "title": "0风险，不满意随时退 ",
+    "subtitle": "我们懂你，才知道放飞自由的意义！梦想可以暂缓，但不要失去！",
+    "imgUrl":[
+      {"src":"img/return_premium01.png"},
+      {"src":"img/return_premium02.png"}
+    ]
+  },
+  {
+    "title": "更多特色服务",
+    "subtitle": "4+核心优势 N+成效保障",
+    "imgUrl":[
+      {"src":"img/special_service01.png"},
+      {"src":"img/special_service02.png"},
+      {"src":"img/special_service03.png"},
+      {"src":"img/special_service04.png"}
+    ]
+  },
+  {
+    "title": "学英语，看世界！小美带你GO学员微电影",
+    "subtitle": "",
+    "imgUrl":[
+      {"src":"img/micro_film01.jpg"},
+      {"src":"img/micro_film02.jpg"},
+      {"src":"img/micro_film03.jpg"},
+      {"src":"img/micro_film04.jpg"}
+    ]
+  },
+  {
+    "title": "学习流程",
+    "subtitle": "仅需4步，轻松开启在线学习之旅",
+    "imgUrl":[
+      {"src":"img/learning_process01.png"},
+      {"src":"img/learning_process02.png"},
+      {"src":"img/learning_process03.png"},
+      {"src":"img/learning_process04.png"}
+    ]
+  },
+  {
+    "title": "企业荣誉",
+    "subtitle": "",
+    "imgUrl":[
+      {"src":"img/honor01.png"},
+      {"src":"img/honor02.png"},
+      {"src":"img/honor03.png"},
+      {"src":"img/honor04.png"},
+      {"src":"img/honor05.png"},
+      {"src":"img/honor06.png"}
+    ]
+  },
+  {
+    "title": "合作伙伴",
+    "subtitle": "",
+    "imgUrl":[
+      {"src":"img/partner01.png"},
+      {"src":"img/partner02.png"},
+      {"src":"img/partner03.png"},
+      {"src":"img/partner04.png"},
+      {"src":"img/partner05.png"},
+      {"src":"img/partner06.png"}
+    ]
+  }
+]

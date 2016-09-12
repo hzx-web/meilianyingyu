@@ -1,0 +1,210 @@
+/*顶级名师*/
+.famous-teacher{
+    padding-top: 75px;
+    margin-bottom: 100px;
+    color: #f3f3f3;
+    line-height: 30px;
+    background-color: #00a080;
+}
+.famous-teacher h2.title{
+    color: #fff;
+}
+.famous-teacher .subtitle span{
+    background-color: #00a080;
+    color: #f3f3f3;
+}
+.famous-teacher .subtitle:before{
+    border-top-color: #1bbc9b;
+}
+.famous-teacher .row .img-responsive{
+    display: inline-block;
+}
+.famous-teacher .row ul{
+    list-style: square;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/*口语测试*/
+.oral-test{
+    padding-bottom: 100px;
+}
+.oral-test div.row, #home_examiner div.row>div {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #00a080;
+}
+.oral-test div.row>div:first-child{
+    background-color: #fff;
+}
+.oral-test div.row>div:last-child {
+    padding: 50px 30px;
+    color: #f3f3f3;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #00a080;
+}
+.oral-test a.btn{
+    margin-top: 40px;
+    width: 250px;
+    border-radius: 0;
+    color: #009f7f;
+}
+
+/*课程量身定制*/
+.customized{
+    padding-bottom: 100px;
+}
+.customized p{
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.customized img.img-responsive{
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/*一站式解决方案*/
+.one-stop{
+    padding-bottom: 100px;
+}
+.one-stop img.img-responsive{
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+.one-stop div.row, .one-stop div.row>div {
+    padding: 0;
+    margin: 0;
+}
+
+/*完整课程体系*/
+.full-course{
+    padding: 75px 0 100px 0;
+    background-color: #00a080;
+    margin-bottom: 100px;
+}
+.full-course h2.title{
+    color: #FFF;
+}
+.full-course .subtitle span{
+    background-color: #00a080;
+    color: #f3f3f3;
+}
+.full-course .subtitle:before{
+    border-top-color: #1bbc9b;
+}
+.full-course .img-responsive{
+    display: inline-block;
+    margin: 20px 0;
+}
+.full-course a.btn{
+    color: #009f7f;
+    width: 150px;
+}
+
+/*学习成效*/
+.learning-effect{
+    padding-bottom: 100px;
+}
+.learning-effect .effect-info {
+    margin: 50px 0 30px;
+}
+.learning-effect .effect-info h5{
+    line-height: 25px;
+}
+.learning-effect .effect-info h5:nth-child(2){
+    margin-bottom: 40px;
+}
+.learning-effect img.img-responsive{
+    display: inline-block;;
+}
+
+/*免费资源*/
+.free-resource{
+    padding: 75px 0 100px 0;
+    margin-bottom: 100px;
+    color: #f3f3f3;
+    background-image:url("../img/free_resource_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.free-resource .subtitle:before{
+    border: 0;
+}
+.free-resource .subtitle span{
+    color: #f3f3f3;
+    background-color: transparent;
+}
+.free-resource div.row, .free-resource div.row>div {
+    padding: 0;
+    margin: 0;
+}
+.free-resource div.row{
+    margin-top: 40px;
+}
+.free-resource div.row .free-resource-item{
+    height: 160px;
+    margin: 10px;
+    padding: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: #00a080;
+}
+.free-resource div.row .first-item{
+    height: 330px;
+}
+.free-resource img.img-responsive{
+    display: inline-block;
+}
+.free-resource div.row .first-item img.img-responsive{
+    display: inline-block;
+    margin: 15px 0;
+}
+
+/*超高性价比*/
+.cost-performance{
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+.cost-performance div.row{
+    margin-top: 40px;
+}
+.cost-performance .img-responsive{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.cost-performance .row h4,.cost-performance .row h2{
+    color: #009f7f;
+}
+.cost-performance .row .vs{
+    padding:125px 0 75px;
+}
+.cost-performance .row .list-inline{
+    margin-top: 30px;
+}
+.cost-performance .row .list-inline p{
+    margin: 0;
+}
+/*输出名校*/
+.transport-eliteschool{
+    padding-bottom: 100px;
+    text-align: center;
+}
+.transport-eliteschool .row{
+    margin-top: 40px;
+}
+.transport-eliteschool .eliteschool-item{
+    margin-bottom: 30px;
+    padding: 15px;
+    border: solid 1px #eee;
+}
+.transport-eliteschool .eliteschool-item h5{
+    margin: 0;
+    line-height: 1.42857143;
+}
+

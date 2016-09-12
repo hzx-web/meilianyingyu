@@ -1,0 +1,93 @@
+/*在线学习新体验*/
+.learning-online{
+    padding: 75px 0 100px 0;
+    line-height: 25px;
+}
+.learning-online .row{
+    margin-top: 40px;
+}
+.learning-online .img-responsive{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.learning-online  p{
+    height: 75px;
+    max-width: 250px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+/*欧美最新课程*/
+.western-course{
+    padding-bottom: 100px;
+}
+.western-course .nav-tabs{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.western-course  .nav-tabs li{
+    padding-left: 0;
+}
+.western-course  .nav-tabs li:last-child{
+    padding-right: 0;
+}
+
+.western-course  .nav-tabs li a {
+    height: 56px;
+    margin-right: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 26px;
+    line-height: 56px;
+    text-align: center;
+    background-color:rgba(25,170,141,0.8);
+    border-radius: 5px;
+}
+.western-course .nav-tabs li.active a{
+    color: #EAF968;
+    background-color: rgb(25,170,141);
+}
+
+.western-course .tab-content{
+    padding-bottom: 15px;
+    background-color: #EAF968;
+}
+.western-course .tab-content .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.western-course .tab-pane:first-child>.row>.col-md-6 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.western-course .tab-content .row h3 {
+    margin-top: 0;
+    color: #19aa8d;
+    font-size: 34px;
+    line-height: 108px;
+}
+.western-course .tab-content p {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    color: #19aa8d;
+    line-height: 30px;
+}
+
+/*辅修课程*/
+.minor-course{
+    padding-bottom: 100px;
+}
+.minor-course .row{
+    margin-top: 40px;
+}
+.minor-course .img-responsive{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: solid 5px #f6f792;
+}
+.minor-course p {
+    line-height: 30px;
+}
